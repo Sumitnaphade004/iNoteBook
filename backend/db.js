@@ -1,9 +1,8 @@
 const mongoose = require('mongoose');
-const mongoURI = "mongodb://localhost:27017/"
 
 const connectToMongo = async ()=>{
     try {
-        await mongoose.connect('mongodb://localhost:27017/inotebook');
+        await mongoose.connect(process.env.MONGO_URI);
         console.log("Connected to Mongo Successfully");
     } 
     catch (error) {
