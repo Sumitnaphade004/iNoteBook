@@ -51,7 +51,7 @@ const Signup = (props) => {
       <div className="signup-page">
         <div className="signup-card">
           <h2 className="signup-title">Create an Account</h2>
-          <p className="signup-subtitle">Sign up to start using iNotebook</p>
+          <p className="signup-subtitle">Sign up to start using iNoteBook</p>
 
           <form onSubmit={handleSubmit}>
             <div className="mb-3">
